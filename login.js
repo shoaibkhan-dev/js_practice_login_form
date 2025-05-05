@@ -13,6 +13,6 @@ loginForm.addEventListener("submit", function (e){
         localStorage.setItem("currentUser", JSON.stringify(validUser));
         window.location.href = 'home.html'
     } else {
-        alert("incorrect email or password")
+        alert("Incorrect Email or Password")
     }
 });
