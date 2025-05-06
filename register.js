@@ -14,7 +14,7 @@ registerForm.addEventListener('submit', function (e){
         alert('Email Already exists');
     } else {
         users.push({fullName, email, password});
-        localStorage.setItem('users', JSON.stringify(users));
+        localStorage.setItem('users',JSON.stringify(users));
         alert('registration successful!');
         window.location.href = 'login.html';
     }
